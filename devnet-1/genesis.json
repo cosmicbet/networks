@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2021-02-15T15:37:27.712547588Z",
+  "genesis_time": "2021-02-15T16:08:32.231848484Z",
   "chain_id": "cosmic-devnet-1",
   "initial_height": "1",
   "consensus_params": {
@@ -33,14 +33,14 @@
       "accounts": [
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "lucky1xy3znam38vw8ng3cspnf06m3kuktkzlpyxpkz9",
+          "address": "lucky1j42e0an6prls06sucppnuqhz2sxhsxnhdjwg7d",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "lucky1j42e0an6prls06sucppnuqhz2sxhsxnhdjwg7d",
+          "address": "lucky1xy3znam38vw8ng3cspnf06m3kuktkzlpyxpkz9",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
@@ -280,7 +280,7 @@
     "wta": {
       "draw": {
         "prize": [],
-        "end_time": "2021-02-16T15:37:27.712185866Z"
+        "end_time": "2021-02-15T16:15:00.230343363Z"
       },
       "tickets": [],
       "params": {
