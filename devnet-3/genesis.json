@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2021-02-22T09:44:53.660853335Z",
+  "genesis_time": "2021-02-22T13:47:34.13190188Z",
   "chain_id": "cosmic-devnet-3",
   "initial_height": "1",
   "consensus_params": {
@@ -33,14 +33,14 @@
       "accounts": [
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "rack1j42e0an6prls06sucppnuqhz2sxhsxnhvact29",
+          "address": "rack1xy3znam38vw8ng3cspnf06m3kuktkzlp9fh4kd",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "rack1xy3znam38vw8ng3cspnf06m3kuktkzlp9fh4kd",
+          "address": "rack1j42e0an6prls06sucppnuqhz2sxhsxnhvact29",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
@@ -279,10 +279,13 @@
     "vesting": {},
     "wta": {
       "draw": {
+        "participants": 0,
+        "tickets_sold": 0,
         "prize": [],
-        "end_time": "2021-02-22T09:55:00.660496565Z"
+        "end_time": "2021-02-22T13:55:00.131082697Z"
       },
       "tickets": [],
+      "past_draws": [],
       "params": {
         "prize_percentage": "98",
         "community_pool_percentage": "1",
