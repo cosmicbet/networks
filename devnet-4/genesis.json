@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2021-02-25T13:20:46.447167432Z",
+  "genesis_time": "2021-02-25T13:25:06.801894329Z",
   "chain_id": "cosmic-devnet-4",
   "initial_height": "1",
   "consensus_params": {
@@ -33,7 +33,7 @@
       "accounts": [
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "rack1yr0tgenf8dg86cqu93rhh5rqyjz6hym2xyqsdu",
+          "address": "rack16kmj8sajzl8xf66hvasjvamv0u8xcd3fswpnur",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
@@ -54,20 +54,20 @@
       },
       "balances": [
         {
-          "address": "rack1yr0tgenf8dg86cqu93rhh5rqyjz6hym2xyqsdu",
-          "coins": [
-            {
-              "denom": "ufchs",
-              "amount": "100000000000"
-            }
-          ]
-        },
-        {
           "address": "rack1j42e0an6prls06sucppnuqhz2sxhsxnhvact29",
           "coins": [
             {
               "denom": "ufchs",
               "amount": "90000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "rack16kmj8sajzl8xf66hvasjvamv0u8xcd3fswpnur",
+          "coins": [
+            {
+              "denom": "ufchs",
+              "amount": "100000000000"
             }
           ]
         }
@@ -127,11 +127,11 @@
                   "max_change_rate": "0.010000000000000000"
                 },
                 "min_self_delegation": "1",
-                "delegator_address": "rack1yr0tgenf8dg86cqu93rhh5rqyjz6hym2xyqsdu",
-                "validator_address": "rackvaloper1yr0tgenf8dg86cqu93rhh5rqyjz6hym2xdrnks",
+                "delegator_address": "rack16kmj8sajzl8xf66hvasjvamv0u8xcd3fswpnur",
+                "validator_address": "rackvaloper16kmj8sajzl8xf66hvasjvamv0u8xcd3fs8zs80",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "YX4d3LjhyQmTxKI8OM8SkL/TOXVFyoo0u3bFAv5rsn8="
+                  "key": "jKXMTabIflKGWBNiowRq++NTluMDCj0pVzmLYI5uWos="
                 },
                 "value": {
                   "denom": "ufchs",
@@ -139,7 +139,7 @@
                 }
               }
             ],
-            "memo": "023ea3bcc7f66d15967f5440d822bac62f21c612@65.21.5.225:26656",
+            "memo": "4d2aaf145fdd67664472420e1f198ac54b6dcb60@65.21.5.225:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -149,7 +149,7 @@
               {
                 "public_key": {
                   "@type": "/cosmos.crypto.secp256k1.PubKey",
-                  "key": "A0Afq9mm3q6Nuiv/YOxyCMxe7hAGkMAJP6MLBJ1Reopr"
+                  "key": "A//gkZUxNdygwFc45oD7bUQ18s2dtIB/yTiLE62zsaTe"
                 },
                 "mode_info": {
                   "single": {
@@ -167,7 +167,7 @@
             }
           },
           "signatures": [
-            "qW7InUitMOu2WnZJtzQ4Fm0XSKXCf5jWwRXGgPekHgpeJX2NdSv010HRDuZQ28cCWq42IvNTmFqB3XoILTv7cQ=="
+            "7nniV5AKZJ/mxo1BZKBC8tD6d63xc04ZAn3pM7x+qos3JiwD9Ll0aNtMm51fh1wpyaoRzM4gmieJlDZsK5kNQA=="
           ]
         }
       ]
@@ -282,7 +282,7 @@
         "participants": 0,
         "tickets_sold": 0,
         "prize": [],
-        "end_time": "2021-02-26T13:17:46.445838223Z"
+        "end_time": "2021-02-26T13:25:06.801129396Z"
       },
       "tickets": [],
       "past_draws": [],
