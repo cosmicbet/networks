@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2021-02-25T13:25:06.801894329Z",
+  "genesis_time": "2021-02-25T13:37:06.801894329Z",
   "chain_id": "cosmic-devnet-4",
   "initial_height": "1",
   "consensus_params": {
@@ -282,7 +282,7 @@
         "participants": 0,
         "tickets_sold": 0,
         "prize": [],
-        "end_time": "2021-02-26T13:25:06.801129396Z"
+        "end_time": "2021-02-25T13:45:06.801129396Z"
       },
       "tickets": [],
       "past_draws": [],
@@ -290,7 +290,7 @@
         "prize_percentage": "98",
         "community_pool_percentage": "1",
         "burn_percentage": "1",
-        "draw_duration": "86400s",
+        "draw_duration": "300s",
         "ticket_price": {
           "denom": "ufchs",
           "amount": "10000000"
