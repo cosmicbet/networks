@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2021-02-25T13:37:06.801894329Z",
+  "genesis_time": "2021-02-25T13:55:37.886622418Z",
   "chain_id": "cosmic-devnet-4",
   "initial_height": "1",
   "consensus_params": {
@@ -33,7 +33,7 @@
       "accounts": [
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "rack16kmj8sajzl8xf66hvasjvamv0u8xcd3fswpnur",
+          "address": "rack19397h4kjxuemp8cncfkuddcrwapatvarz7php8",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
@@ -54,20 +54,20 @@
       },
       "balances": [
         {
-          "address": "rack1j42e0an6prls06sucppnuqhz2sxhsxnhvact29",
-          "coins": [
-            {
-              "denom": "ufchs",
-              "amount": "90000000000000000"
-            }
-          ]
-        },
-        {
-          "address": "rack16kmj8sajzl8xf66hvasjvamv0u8xcd3fswpnur",
+          "address": "rack19397h4kjxuemp8cncfkuddcrwapatvarz7php8",
           "coins": [
             {
               "denom": "ufchs",
               "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "rack1j42e0an6prls06sucppnuqhz2sxhsxnhvact29",
+          "coins": [
+            {
+              "denom": "ufchs",
+              "amount": "9000000000000000"
             }
           ]
         }
@@ -115,7 +115,7 @@
               {
                 "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
                 "description": {
-                  "moniker": "zak-validator",
+                  "moniker": "MyValidator",
                   "identity": "",
                   "website": "",
                   "security_contact": "",
@@ -127,19 +127,19 @@
                   "max_change_rate": "0.010000000000000000"
                 },
                 "min_self_delegation": "1",
-                "delegator_address": "rack16kmj8sajzl8xf66hvasjvamv0u8xcd3fswpnur",
-                "validator_address": "rackvaloper16kmj8sajzl8xf66hvasjvamv0u8xcd3fs8zs80",
+                "delegator_address": "rack19397h4kjxuemp8cncfkuddcrwapatvarz7php8",
+                "validator_address": "rackvaloper19397h4kjxuemp8cncfkuddcrwapatvarzhz56t",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "jKXMTabIflKGWBNiowRq++NTluMDCj0pVzmLYI5uWos="
+                  "key": "MrqexQubGI6tNTL6zkkOAr1QcD9YB0UAwb6hsdMFp6Y="
                 },
                 "value": {
                   "denom": "ufchs",
-                  "amount": "100000000"
+                  "amount": "10000000"
                 }
               }
             ],
-            "memo": "4d2aaf145fdd67664472420e1f198ac54b6dcb60@65.21.5.225:26656",
+            "memo": "c68ece73d59edc0e77751b67a7ef4bcf2ec49630@65.21.5.225:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -149,7 +149,7 @@
               {
                 "public_key": {
                   "@type": "/cosmos.crypto.secp256k1.PubKey",
-                  "key": "A//gkZUxNdygwFc45oD7bUQ18s2dtIB/yTiLE62zsaTe"
+                  "key": "AjumkpZ1GvsArAIxWd/b6fUMR+ui2ukQsLFG/o29Uhh2"
                 },
                 "mode_info": {
                   "single": {
@@ -167,7 +167,7 @@
             }
           },
           "signatures": [
-            "7nniV5AKZJ/mxo1BZKBC8tD6d63xc04ZAn3pM7x+qos3JiwD9Ll0aNtMm51fh1wpyaoRzM4gmieJlDZsK5kNQA=="
+            "R8E958STwdiQFDpwzP9ey8kj8FNvPByFrZO9yCF+KaR3nEwm5mZLosPG3HoVxqcvHfeH+sO0LpIQERH1FslHBw=="
           ]
         }
       ]
@@ -278,20 +278,19 @@
     "upgrade": {},
     "vesting": {},
     "wta": {
-      "draw": {
-        "participants": 0,
-        "tickets_sold": 0,
-        "prize": [],
-        "end_time": "2021-02-25T13:45:06.801129396Z"
-      },
+      "draw_end_time": "2021-02-25T13:59:37.886070454Z",
       "tickets": [],
       "past_draws": [],
-      "params": {
-        "prize_percentage": "98",
-        "community_pool_percentage": "1",
-        "burn_percentage": "1",
-        "draw_duration": "300s",
-        "ticket_price": {
+      "distribution_params": {
+        "prize_percentage": "0.980000000000000000",
+        "burn_percentage": "0.010000000000000000",
+        "fee_percentage": "0.010000000000000000"
+      },
+      "draw_params": {
+        "duration": "300s"
+      },
+      "ticket_params": {
+        "price": {
           "denom": "ufchs",
           "amount": "10000000"
         }
